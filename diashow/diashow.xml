@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extension type="module" client="site" method="upgrade">
+
+	    <name>diashow</name>
+        <creationDate>April 2017</creationDate>
+        <author>Alexander Luhmann</author>
+        <copyright>This extension in released under the GNU/GPL License</copyright>
+        <license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+        <authorEmail>luhmann.alexander@gmail.com</authorEmail>
+        <version>1.0.0</version>
+
+	<description><![CDATA[ 
+	<h2>diashow</h2>
+	]]></description>
+
+	<files>
+
+		<filename module="diashow">diashow.php</filename>
+
+		<filename>diashow.xml</filename>
+
+	</files>
+</extension>

@@ -1,0 +1,37 @@
+.view-checkout{
+  .crbc-checkout-page{
+    grid-template-columns: 0.5fr 3fr 0.5fr;
+  }
+  .crbc-checkout-order-review-information{
+    .crbc-row{
+      .crbc-cart-final{
+        grid-template-columns: 120px 1fr 1fr;
+      }
+      table{
+        tr{
+          grid-template-columns: 120px 1fr 1fr;
+          td::before{
+            left: 0;
+          }
+        }
+      }
+      table.crbc-responsive td::before{
+        content: '';
+        height: 0;
+      }
+      table.crbc-responsive thead tr{
+        position: inherit;
+        top: inherit;
+        left: inherit;
+      }
+      table.crbc-responsive td.large-padding{
+        padding-top: 6px;
+      }
+    }
+  }
+  .crbc-checkout-shipping-method{
+
+  }
+}
+
+

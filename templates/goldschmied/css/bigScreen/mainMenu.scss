@@ -1,0 +1,32 @@
+ /** Navigation wird als einfarbiger, horizontaler Balken dargestellt **/
+  nav {
+    display: block !important;
+    text-align: center;
+  }
+
+  nav ul li {
+    display: inline;
+    width: 25%;
+  }
+
+  /** Label wird ausgeblendet **/
+  label.open-menu-label {
+    display: none;
+  }
+
+  header {
+    display: grid;
+    grid-template-columns: 34% 1fr;
+    grid-template-rows: 8% 1fr 23%;
+    .container {
+      grid-column: 2;
+      display: grid !important;
+      grid-template-columns: 14% 20%;
+      grid-template-rows: 28% 23%;
+    }
+  }
+  /*Abschnitt Philosphie*/
+  .philosphie-mobil {
+    display: none;
+  }
+  /*Ende Philosphie*/
