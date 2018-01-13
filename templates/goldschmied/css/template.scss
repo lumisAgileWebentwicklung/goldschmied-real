@@ -1,0 +1,12 @@
+@import "alt-template.css";
+@import "shop";
+@import "bigScreen/wartung";
+@media only screen and (min-width: 760px) {
+  @import "bigScreen/mainMenu";
+}
+@media (max-width: 33.375em) {
+  @import "mobil/shop";
+  @import "mobil/mainMenu";
+  @import "mobil/basic";
+}
+@import "basic";
